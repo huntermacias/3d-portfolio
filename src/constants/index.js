@@ -187,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Thanks to your guidance and expertise, I was able to pass my exam with flying colors and even got into my favorite college! I remember feeling incredibly overwhelmed and intimidated by the subject matter when I first started studying for the exam. But you made everything so much clearer and easier to understand. You patiently explained the concepts to me until I fully grasped them, and you never made me feel stupid or embarrassed for asking questions",
+      "Thanks to your guidance and expertise, I was able to pass my exam with flying colors and even got into my favorite college! I remember feeling incredibly overwhelmed and intimidated by the subject matter when I first started studying for the exam. But you made everything so much clearer and easier to understand. You patiently explained the concepts to me until I fully grasped them.",
     name: "Lisa Wang",
     designation: "Student",
     company: "U.C Berkeley",
