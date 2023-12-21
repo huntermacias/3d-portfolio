@@ -196,69 +196,220 @@ const testimonials = [
 ];
 
 const projects = [
+  // OpenAI DALL-E Clone - MERN
   {
-    name: "All About the Shield",
-    description:
-      "Web-based application that build using Next.js version 13 & Sanity.io. All About the Shield is dedicated to providing Game Recaps | Player Profiles | Draft Predictions | Latest Updates & Rumors | Analysis & more",
+    name: "OpenAI DALL-E Clone - MERN",
+    description: "Web Development - MERN, OpenAI, and Cloudinary. Developed a MERN stack-based DALL-E clone.",
     tags: [
-      {
-        name: "Next13",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Sanity.io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "MERN", color: "blue-text-gradient" },
+      { name: "OpenAI", color: "green-text-gradient" }
     ],
-    image: rblog,
-    source_code_link: "https://raidersrundown.com",
+    image: "https://i.ytimg.com/vi/Q9FGUii_4Ok/mqdefault.jpg",
+    source_code_link: "https://openai-pandabit.netlify.app/"
   },
+  // Snake Game + A.I
   {
-    name: "ChatGPT Messenger 2.0",
-    description:
-      "ChaptGPT Clone built using Next13, Firebase & TypeScript. ",
+    name: "Snake Game + A.I",
+    description: "Machine Learning & A.I. - PyGame. A PyGame Implementation of the popular Classic Retro Snake Game with AI.",
     tags: [
-      {
-        name: "Next13",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firestore",
-        color: "green-text-gradient",
-      },
-      {
-        name: "OpenAi API",
-        color: "pink-text-gradient",
-      },
+      { name: "PyGame", color: "blue-text-gradient" },
+      { name: "AI", color: "green-text-gradient" }
     ],
-    image: chatgpt,
-    source_code_link: "https://chatgpt-messenger-three.vercel.app/",
+    image: "https://demofont.com/wp-content/uploads/2021/02/Ardhy-PreviewFonts-Cover-1200x800-1.jpg",
+    source_code_link: "https://huntermacias.netlify.app/"
   },
+  // NextJs Portfolio
+  {
+    name: "NextJs Portfolio",
+    description: "Web Development - NextJs, TailwindCSS, Amazon AWS, and Stripe Payments. Crafted a personal portfolio using Next.js and TailwindCSS.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" }
+    ],
+    image: "https://img.freepik.com/premium-vector/template-design-concept-video-conference-online-meeting-work-form-home-user-interface-website-applicaton_71983-2112.jpg",
+    source_code_link: "https://huntermacias.netlify.app/"
+  },
+  // Zoom Clone
+  {
+    name: "Zoom Clone",
+    description: "Web Development - ReactJs and Agora WEB. Developed a video conferencing application akin to Zoom.",
+    tags: [
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "Agora Web SDK", color: "green-text-gradient" }
+    ],
+    image: "https://img.freepik.com/premium-vector/template-design-concept-video-conference-online-meeting-work-form-home-user-interface-website-applicaton_71983-2112.jpg",
+    source_code_link: "https://lively-pastelito-3c6253.netlify.app"
+  },
+  // LinkedIn Clone
+  {
+    name: "LinkedIn Clone",
+    description: "Web Development - ReactJs, Firebase. Built a LinkedIn Clone with React.js and Firebase.",
+    tags: [
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "Firebase", color: "green-text-gradient" }
+    ],
+    image: "https://img.freepik.com/free-vector/flat-design-linkedin-mockup_23-2149217511.jpg",
+    source_code_link: "https://linkedin-clone-cc4d3.web.app/"
+  },
+  // NFT Marketplace React Native App
+  {
+    name: "NFT Marketplace React Native App",
+    description: "Mobile Development - React Native - TailwindCSS. Created an NFT Marketplace mobile app using React Native.",
+    tags: [
+      { name: "React Native", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" }
+    ],
+    image: "https://i.imgur.com/yvz2jdw.png",
+    source_code_link: "https://pro-nef-x.netlify.app/"
+  },
+  // Web3 Crypto Lottery App
   {
     name: "Web3 Crypto Lottery App",
-    description:
-      "Web3 - NextJs + Blockchain + Smart Contracts + Solidity Lottery Draw App built using Next.js/TailwindCSS and Solidity Smart Contract with thirdweb's new deploy. Metamask wallet required to login.",
+    description: "Web3 - NextJs + Blockchain + Smart Contracts + Solidity. Designed a cryptocurrency lottery application leveraging Next.js and Solidity smart contracts.",
     tags: [
-      {
-        name: "Web3-Smart-Contract",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Solidity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Blockchain",
-        color: "pink-text-gradient",
-      },
+      { name: "Web3", color: "blue-text-gradient" },
+      { name: "Solidity", color: "green-text-gradient" }
     ],
-    image: lotteryapp,
-    source_code_link: "https://lottery-draw.netlify.app/",
+    image: "https://i.imgur.com/E4yJgh0.jpeg",
+    source_code_link: "https://lottery-draw.netlify.app/"
   },
+  // ShareMe: Advanced Social Media Platform
+  {
+    name: "ShareMe: Advanced Social Media Platform",
+    description: "Full-Stack Development with TypeScript & Sanity. ShareMe redefines social media interaction with Google Authentication, post creation, editing, and deletion, and advanced search capabilities.",
+    tags: [
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "Sanity", color: "green-text-gradient" }
+    ],
+    image: "https://files.oaiusercontent.com/file-DarPP4XToQpspyhjyCJ2U9hy?se=2023-12-21T01%3A40%3A03Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D240ecd57-1988-451a-a423-7914f616fc16.webp&sig=LD/iZRGK%2B1Pezh0%2BiDtKH1jga%2BT2G3lJ9eVJF%2Ba4%2BJg%3D",
+    source_code_link: "https://bubba.netlify.app/"
+  },
+  // TikTok-Inspired Video Sharing Platform
+  {
+    name: "TikTok-Inspired Video Sharing Platform",
+    description: "Dynamic Web Dev: TypeScript & Sanity. A TikTok clone with a sleek design, incorporating Google Authentication, video upload and sharing, comment interactions, and category-based filtering.",
+    tags: [
+      { name: "TypeScript", color: "blue-text-gradient" },
+      { name: "Sanity", color: "green-text-gradient" }
+    ],
+    image: "https://i.ytimg.com/vi/UYTkkl0qZk4/maxresdefault.jpg",
+    source_code_link: "https://symphonious-kitten-397f94.netlify.app/"
+  },
+  // Blockchain-Powered Crowdfunding Platform
+  {
+    name: "Blockchain-Powered Crowdfunding Platform",
+    description: "Innovative Web3 Solution with Solidity & Smart Contracts. A blockchain-based crowdfunding platform, featuring Metamask integration, smart contract interactions, and Ethereum transactions.",
+    tags: [
+      { name: "Web3", color: "blue-text-gradient" },
+      { name: "Solidity", color: "green-text-gradient" }
+    ],
+    image: "https://i.ytimg.com/vi/BDCT6TYLYdI/maxresdefault.jpg",
+    source_code_link: "https://cool-cactus-84bc7e.netlify.app/"
+  },
+  // NFT Marketplace: OpenSea Clone
+  {
+    name: "NFT Marketplace: OpenSea Clone",
+    description: "NFT Marketplace Development with Next.js & Web3. An NFT marketplace mimicking OpenSea, showcasing a variety of blockchain use cases.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "Web3", color: "green-text-gradient" }
+    ],
+    image: "https://moralis.io/wp-content/uploads/2021/11/21_11_OpenSea-Clone-Create-an-NFT-Marketplace-Like-OpenSea.jpg",
+    source_code_link: "https://opensea-hm.netlify.app"
+  },
+  // Kobe Bryant's Legacy: A Data Visualization
+  {
+    name: "Kobe Bryant's Legacy: A Data Visualization",
+    description: "Interactive Data Visualization with D3.js. A tribute to Kobe Bryant through data visualization, showcasing his basketball career and impact.",
+    tags: [
+      { name: "D3.js", color: "blue-text-gradient" },
+      { name: "Data Visualization", color: "green-text-gradient" }
+    ],
+    image: "https://files.oaiusercontent.com/file-8OIp7TDVjX4FSoG7GQpNBENW?se=2023-12-21T01%3A29%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D62372783-cde8-430e-bf88-ec438b4e2f01.webp&sig=kmte2RsFi/yvrwPaI0JgP4mOJz5g0szvuBZ8lMVyN60%3D",
+    source_code_link: "https://huntermacias.github.io/data-vis-basketball/index.html"
+  },
+  // AI-Powered ChatGPT Messaging Platform
+  {
+    name: "AI-Powered ChatGPT Messaging Platform",
+    description: "Advanced Chatbot Integration in Web Development. ChatGPT Messenger revolutionizes communication with AI-driven conversations.",
+    tags: [
+      { name: "NLP", color: "blue-text-gradient" },
+      { name: "ML", color: "green-text-gradient" }
+    ],
+    image: "https://www.weetechsolution.com/wp-content/uploads/2022/12/OpenAI-ChatGPT-1.png",
+    source_code_link: "https://chatgpt-messenger-three.vercel.app/"
+  },
+  // Healthcare Communication App
+  {
+    name: "Healthcare Communication App",
+    description: "Secure Medical Chat Application Development. A responsive medical chat application offering direct and group chats.",
+    tags: [
+      { name: "Chat", color: "blue-text-gradient" },
+      { name: "Healthcare", color: "green-text-gradient" }
+    ],
+    image: "https://i.ibb.co/hsvcw4V/image.png",
+    source_code_link: "https://curechat.netlify.app/"
+  },
+  // Las Vegas Raiders Fan Blog
+  {
+    name: "Las Vegas Raiders Fan Blog",
+    description: "Comprehensive NFL Team Coverage and Analysis. The ultimate resource for Las Vegas Raiders fans.",
+    tags: [
+      { name: "NFL", color: "blue-text-gradient" },
+      { name: "Blogging", color: "green-text-gradient" }
+    ],
+    image: "https://th.bing.com/th/id/R.02299f90b4d72b739d8f2766a46136a8?rik=kOESPznNANOQcA&pid=ImgRaw&r=0",
+    source_code_link: "https://www.raidersrundown.com"
+  },
+  // 3D Interactive Developer Portfolio
+  {
+    name: "3D Interactive Developer Portfolio",
+    description: "Personal Portfolio Creation with Three.js & Framer Motion. A personal portfolio showcasing projects in a 3D interactive format.",
+    tags: [
+      { name: "Three.js", color: "blue-text-gradient" },
+      { name: "Framer Motion", color: "green-text-gradient" }
+    ],
+    image: "https://i.ytimg.com/vi/0fYi8SGA20k/maxresdefault.jpg",
+    source_code_link: ""
+  },
+  // Comprehensive Job Search Mobile App
+  {
+    name: "Comprehensive Job Search Mobile App",
+    description: "Job Discovery Application with React Native. A powerful job search tool leveraging RapidAPI for comprehensive job listings.",
+    tags: [
+      { name: "React Native", color: "blue-text-gradient" },
+      { name: "RapidAPI", color: "green-text-gradient" }
+    ],
+    image: "https://i.imgur.com/W3GpXi3.jpg",
+    source_code_link: "https://expo.dev/@huntermacias/job-search-app?serviceType=classic&distribution=expo-go"
+  },
+  // Text Similarity Analysis API
+  {
+    name: "Text Similarity Analysis API",
+    description: "API Development for Text Comparison. Similarity Scout offers a straightforward API to assess text similarity.",
+    tags: [
+      { name: "API", color: "blue-text-gradient" },
+      { name: "Text Analysis", color: "green-text-gradient" }
+    ],
+    image:"https://similarityscout.netlify.app/_next/image?url=%2Ftypewriter.png&w=3840&q=100",
+    source_code_link: "https://similarityscout.netlify.app"
+  },
+  // Interactive Pygame Documentation Portal
+  {
+    name: "Interactive Pygame Documentation Portal",
+    description: "Enhanced Documentation Website for Pygame. An interactive and user-friendly documentation site for Pygame.",
+    tags: [
+      { name: "Documentation", color: "blue-text-gradient" },
+      { name: "Pygame", color: "green-text-gradient" }
+    ],
+    image: "https://files.oaiusercontent.com/file-gV1NvtEBqOBJXguKt4nEewN4?se=2023-12-21T01%3A28%3A00Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4317b86e-0a48-452c-9095-e149d75aa3fc.webp&sig=AZ6JQiIJAC%2BAbfP9EkLnPSWCVLk8EHdJp4Gwgfb4Y80%3D",
+    source_code_link: "https://revamed-pygame-docs.vercel.app/"
+  }
+
+
+
+
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
