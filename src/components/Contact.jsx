@@ -33,10 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_dohu241",
-        "template_uxxfn9n",
-        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Hunter Macias | Panda Bit Coach",
@@ -44,8 +42,7 @@ const Contact = () => {
           to_email: "huntermacias20@gmail.com",
           message: form.message,
         },
-        "iTJOEPV0c3pzD1SJg"
-        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
