@@ -405,11 +405,6 @@ const projects = [
     image: "https://files.oaiusercontent.com/file-gV1NvtEBqOBJXguKt4nEewN4?se=2023-12-21T01%3A28%3A00Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D4317b86e-0a48-452c-9095-e149d75aa3fc.webp&sig=AZ6JQiIJAC%2BAbfP9EkLnPSWCVLk8EHdJp4Gwgfb4Y80%3D",
     source_code_link: "https://revamed-pygame-docs.vercel.app/"
   }
-
-
-
-
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

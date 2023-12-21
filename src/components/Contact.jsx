@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     setLoading(true);
 
     emailjs
